@@ -58,3 +58,25 @@ if (ticketPrice < 1500) { // If Ticket Cheaper Than 1500
     console.log("No Its Expensive"); //  Display Message That Its Expensive
 }
 */
+
+/*
+var yourAge = prompt(" Whats Your Age?");
+
+if (yourAge < 18) {
+    document.getElementById(test).innerHTML =
+        "Sorry Your Age Is " + yourAge + "Your Are Not Allowed Here";
+} else {
+    document.getElementById(test).innerHTML =
+        "Hello Your Age Is " + yourAge + "Your Are Welcome Here";
+}
+*/
+
+var yourAge = prompt(" Whats Your Age?");
+
+if (yourAge <= 18) {
+    document.getElementById(test).innerHTML =
+        "Sorry Your Age Is " + yourAge + "Your Are Not Allowed Here";
+} else {
+    document.getElementById(test).innerHTML =
+        "Hello Your Age Is " + yourAge + "Your Are Welcome Here";
+
