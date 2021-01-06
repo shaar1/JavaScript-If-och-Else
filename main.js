@@ -44,6 +44,8 @@ if (ticketPrice < 1500) { // If Ticket Cheaper Than 1500
 }
 */
 
+
+/*
 var ticketPrice = 800; // Ticket Price Variable
 
 if (ticketPrice < 1500) { // If Ticket Cheaper Than 1500
@@ -54,3 +56,5 @@ if (ticketPrice < 1500) { // If Ticket Cheaper Than 1500
 
 } else {
     console.log("No Its Expensive"); //  Display Message That Its Expensive
+}
+*/
